@@ -5,3 +5,24 @@
 ul{
     color:#234;
 }
+
+
+div h1{
+    text-align:center;
+    color:green;
+    font-size:40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.flores{
+      margin-left:7rem;
+      display:grid;
+      grid-template-columns:repeat(3, 300px);
+      gap:12px;
+}
+
+.flor{
+    max-width:90%;
+    width:200px;
+    height:200px;
+}
