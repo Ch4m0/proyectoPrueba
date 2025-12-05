@@ -18,11 +18,32 @@ div h1{
       margin-left:7rem;
       display:grid;
       grid-template-columns:repeat(3, 300px);
-      gap:12px;
+      gap:3px;
 }
 
 .flor{
     max-width:90%;
-    width:200px;
-    height:200px;
+    width:280px;
+    height:280px;
+}
+
+table{
+    border-collapse:collapse;
+  max-width:100%;
+}
+
+table th, td{
+    border:solid 1px black;
+    padding:4px;
+}
+th{
+    font-size:20px;
+}
+
+tr:hover{
+      background-color:chocolate;
+}
+ 
+tr:nth-child(odd){
+         background-color:cadetblue;
 }
